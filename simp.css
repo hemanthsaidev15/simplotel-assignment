@@ -1,0 +1,148 @@
+body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.div1 {
+    background: #ffddc7;
+
+    width: 100vw;
+    background-size: cover;
+}
+
+.navbar {
+    height: 40px;
+    width: auto;
+    background-color: #ff7171;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 15px;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.img1 {
+    height: 18px;
+    width: 18px;
+    margin-right: 40px;
+
+}
+
+li {
+    padding-left: 25px;
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+}
+
+.card1 {
+    display: inline-flex;
+
+}
+
+.img2 {
+    height: 90vh;
+    width: 50vw;
+}
+
+.h1 {
+    margin: 100px;
+    margin-left: 30px;
+    font-size: 60px;
+    font-family: system-ui, sans-serif;
+
+}
+
+h3 {
+    padding: 10px;
+    margin: 19px;
+    font-weight: 100;
+}
+
+button {
+    background-color: #ff7171;
+    margin: 60px;
+    margin-left: 50px;
+    padding: 10px;
+    width: 10vw;
+    color: white;
+    border-style: none;
+
+}
+
+.bg {
+    background-color: #ffddc7;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    margin-top: 20px;
+    margin-right: 50px;
+    gap: 30px;
+}
+
+.img3 {
+    height: 27vh;
+    width: 15vw;
+    padding-left: 70px;
+}
+
+.img4 {
+    height: 57vh;
+    width: 15vw;
+    padding-top: 25px;
+    padding-right: 530px;
+}
+
+.card2 {
+
+    background-color: #ff7171;
+    margin-top: 50px;
+    margin-right: 100px;
+    padding: 20px;
+    height: 30vh;
+    width: 60vw;
+    transform: translateX(-290px);
+}
+
+.img5 {
+    display: flex;
+    flex-direction: column;
+    padding-top: 30px;
+    gap: 20px;
+}
+
+.img6 {
+    height: 18px;
+    width: 18px;
+    padding-top: 16px;
+}
+.picture {
+    display: flex;
+    flex-direction: row;
+
+
+}
+h5{
+    font-size: 25px;
+    padding-top: 10px;
+}
+
+@media (min-width: 362px) and (max-width : 768px) {
+    body {
+        height: auto;
+        width: auto;
+        display: flex;
+        flex-direction: column;
+    }
+}
+@media (min-width: 768px) and (max-wdith : 2500px) {
+    body {
+        height: auto;
+        width: auto;
+        display: flex;
+        flex-direction: column;
+    }
+    
+}
